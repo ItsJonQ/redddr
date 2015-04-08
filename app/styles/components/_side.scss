@@ -8,6 +8,10 @@
   a {
     color: #0079d3;
   }
+
+  .spacer {
+    margin: $keyline-half 0 ($keyline-double + $keyline-half);
+  }
 }
 
 .sidecontentbox {
