@@ -1,0 +1,24 @@
+// Components :: Entry
+
+.entry {
+  margin-right: $gutter-half;
+
+  .flat-list {
+    font-size: 12px;
+    text-transform: capitalize;
+
+    li {
+      a {
+        color: #a6aebb;
+        font-weight: normal;
+      }
+
+      &.first {
+        a {
+         color: darken(#a6aebb, 20);
+         font-weight: bold;
+        }
+      }
+    }
+  }
+}

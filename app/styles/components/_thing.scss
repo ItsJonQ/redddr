@@ -1,0 +1,39 @@
+// Components :: Thing
+
+.thing {
+  border-bottom: 1px solid #eee;
+
+  & * {
+    box-sizing: border-box;
+  }
+
+  margin: 0;
+
+  .midcol {
+    margin: 0 $keyline-double 0 $keyline;
+  }
+
+  .domain {
+    color: #a6aebb;
+
+    a {
+      color: #a6aebb;
+    }
+  }
+
+  .title {
+    color: #369;
+    margin-bottom: $keyline-half;
+
+    &:hover {
+      color: lighten(#369, 16);
+    }
+  }
+
+  .tagline {
+    color: #a6aebb;
+    font-size: 12px;
+    margin-bottom: 1px;
+    text-transform: capitalize;
+  }
+}

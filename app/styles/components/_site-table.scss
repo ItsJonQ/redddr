@@ -1,0 +1,11 @@
+// Components :: Site Table
+
+#siteTable {
+  background-color: #fff;
+  margin: auto;
+  max-width: $content-width;
+
+  .thing {
+    padding: $keyline-double $keyline;
+  }
+}

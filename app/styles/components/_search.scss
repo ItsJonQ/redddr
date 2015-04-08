@@ -1,0 +1,9 @@
+// Components :: Search
+
+#search input[type=text] {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(black, 0.08) inset;
+  padding-bottom: $keyline;
+  padding-top: $keyline;
+}

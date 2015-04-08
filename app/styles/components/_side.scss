@@ -1,0 +1,17 @@
+// Components :: Side
+
+.side {
+  background-color: #fff;
+  padding: $keyline-double;
+  margin-right: $keyline;
+
+  a {
+    color: #0079d3;
+  }
+}
+
+.sidecontentbox {
+  .content {
+    border: none;
+  }
+}
